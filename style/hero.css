@@ -8,7 +8,9 @@
 
   .headline {
     font: var(--title);
+    text-align: justify;
     margin-bottom: 1rem;
+
   }
 
   .subtitle {

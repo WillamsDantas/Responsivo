@@ -6,8 +6,8 @@
 
 :root {
   --font-family: "Poppins", sans-serif;
-  --title: bold 1.5rem/150% var(--font-family);
-  --font: 400 0.875rem/150% var(--font-family);
+  --title: bold 2rem/150% var(--font-family);
+  --font: 400 1rem/150% var(--font-family);
   --btn-font: bold 1.25rem/150% var(--font-family);
 
   --btn-background: linear-gradient(90deg, #ffd900 0%, #786705 100%);
