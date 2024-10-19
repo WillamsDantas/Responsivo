@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --title: bold 1.5rem/150% var(--font-family);
+  --font: 400 0.875rem/150% var(--font-family);
+  --btn-font: bold 1.25rem/150% var(--font-family);
+
+  --btn-background: linear-gradient(90deg, #ffd900 0%, #786705 100%);
+
+  --bg-dsk: url(../assets/bg-dsk.jpg) no-repeat top / cover;
+  --bg-mob: url(../assets/bg-mob.png);
+  --bg-color: #161618;
+}
+
+body {
+  color: white;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+
+  @media (min-width: 80rem) {
+    background: var(--bg-dsk);
+  }
+}
+
+#container {
+  width: 100%;
+  max-width: 80rem;
+  margin: auto;
+  border: 1px solid red;
+}
