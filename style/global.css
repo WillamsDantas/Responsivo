@@ -6,7 +6,7 @@
 
 :root {
   --font-family: "Poppins", sans-serif;
-  --title: bold 2rem/150% var(--font-family);
+  --title: bold 1.95rem/150% var(--font-family);
   --font: 400 1rem/150% var(--font-family);
   --btn-font: bold 1.25rem/150% var(--font-family);
 
